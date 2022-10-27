@@ -1,0 +1,95 @@
+Poniendo a punto el gestor de intérpretes de Ruby
+
+Dibuje el grafo de las confirmaciones hasta el momento.
+commit 29dad17efcb28bc1629737d018e6e5e3742d55f3 (HEAD -> doc, ghp03/master, master)
+Author: Daniel Dóniz García <alu0101217277@ull.edu.es>
+Date:   Thu Oct 29 11:00:51 2020 +0000
+
+    Creado el fichero de respuestas
+
+commit 8dbcbb5e3c86cb8b1a3101197290a1504cabda25
+Author: Daniel Dóniz García <alu0101217277@ull.edu.es>
+Date:   Thu Oct 29 10:58:33 2020 +0000
+
+    Creando el fichero README.md
+
+commit 6c620505523527348d5bef914b4522fe65c2c7a0
+Author: Daniel Dóniz García <alu0101217277@ull.edu.es>
+Date:   Thu Oct 29 10:56:49 2020 +0000
+
+    Creando el fichero .gitignore
+
+¿Cuántas ramas hay?
+Hay tres ramas.
+
+¿Cuáles son locales y cuáles son remotas?
+ghp03/master es la rama remota.
+doc y master son las ramas locales.
+
+
+
+Dibuje el grafo de las confirmaciones hasta el momento. Indique dónde se encuentra el head.
+commit 325e4e90088f087fd8a53346ae813b04c650c10f (master)
+Author: Daniel Dóniz García <alu0101217277@ull.edu.es>
+Date:   Fri Oct 30 09:07:26 2020 +0000
+
+    Creando Hola mundo en Ruby
+
+commit 56a2af894db7ac586a7b35e5aac866aa69469d77 (HEAD -> doc)
+Author: Daniel Dóniz García <alu0101217277@ull.edu.es>
+Date:   Thu Oct 29 11:30:04 2020 +0000
+
+    Grafo con la rama doc
+
+commit 29dad17efcb28bc1629737d018e6e5e3742d55f3 (ghp03/master)
+Author: Daniel Dóniz García <alu0101217277@ull.edu.es>
+Date:   Thu Oct 29 11:00:51 2020 +0000
+
+    Creado el fichero de respuestas
+
+commit 8dbcbb5e3c86cb8b1a3101197290a1504cabda25
+Author: Daniel Dóniz García <alu0101217277@ull.edu.es>
+Date:   Thu Oct 29 10:58:33 2020 +0000
+
+    Creando el fichero README.md
+
+commit 6c620505523527348d5bef914b4522fe65c2c7a0
+Author: Daniel Dóniz García <alu0101217277@ull.edu.es>
+Date:   Thu Oct 29 10:56:49 2020 +0000
+
+    Creando el fichero .gitignore
+
+Dibuje el grafo de las confirmaciones hasta el momento. Indique dónde se encuentran las ramas doc y master.
+commit 03b5f58ea0fe62ad151133b7203d537ebcaec7df (HEAD -> master, doc)
+Author: Daniel Dóniz García <alu0101217277@ull.edu.es>
+Date:   Fri Oct 30 09:09:57 2020 +0000
+
+    Grafo con Hello World en Ruby añadido
+
+commit 325e4e90088f087fd8a53346ae813b04c650c10f
+Author: Daniel Dóniz García <alu0101217277@ull.edu.es>
+Date:   Fri Oct 30 09:07:26 2020 +0000
+
+    Creando Hola mundo en Ruby
+
+commit 29dad17efcb28bc1629737d018e6e5e3742d55f3 (ghp03/master)
+Author: Daniel Dóniz García <alu0101217277@ull.edu.es>
+Date:   Thu Oct 29 11:00:51 2020 +0000
+
+    Creado el fichero de respuestas
+
+commit 8dbcbb5e3c86cb8b1a3101197290a1504cabda25
+Author: Daniel Dóniz García <alu0101217277@ull.edu.es>
+Date:   Thu Oct 29 10:58:33 2020 +0000
+
+    Creando el fichero README.md
+
+¿Qué es rvm? ¿Qué versión se ha instalado?
+Es una herramienta de linea de comandos que nos permite instalar, administar y trabajar facilmente con multiples entornos de ruby y utilizar diferentes intérpretes.
+Las versiones 2.6.5 y 2.7.0 han sido instaladas.
+
+¿Cuáles son las diferencias entre la ejecución del programa "Hola Mundo" con el intérprete de Ruby (ruby helloWorld.rb) y el intérprete interactivo del ejercicio anterior?
+El interprete Ruby nos muestra directamente el resultadode la ejecucion. El interprete interactivo vemos las lineas del programa con su correspondiente resultado. 
+
+¿Cuáles son las diferencias entre la ejecución del programa "Hola Mundo" con el intérprete interactivo y con PRY?
+Utilizando PRY podemos interactuar directamente con el programa.

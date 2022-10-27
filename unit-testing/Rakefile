@@ -1,0 +1,11 @@
+task :default => :tu
+
+desc "Pruebas unitarias de la clase RegExp"
+task :tu do
+  sh "ruby -I. test/tc_regexp.rb"
+end
+
+desc "Ejecutar solo las pruebas simples"
+task :simple do
+  sh "ruby -I. test/tc_regexp.rb -n /simple/"
+end
