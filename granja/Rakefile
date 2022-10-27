@@ -10,6 +10,4 @@ task :doc do
   sh "rspec spec/granja_spec.rb --format doc"
   sh "rspec spec/funcion_spec.rb --format doc"
   sh "rspec spec/datos_spec.rb --format doc"
-  sh "rspec spec/animal_spec.rb --format doc"
-  sh "rspec spec/ave_spec.rb --format doc"
 end

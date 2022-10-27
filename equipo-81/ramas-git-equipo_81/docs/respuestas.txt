@@ -1,0 +1,11 @@
+Trabajo en equipo con git
+
+Diferencias entre compilación e interpretación:
+La diferencia principal es que un intérprete es un programa que ejecuta directamente las instrucciones escritas en un lenguaje de programación dado y un compilador es un programa que transforma el código fuente de un programa a su equivalente en otro lenguaje de programación de más bajo nivel.
+
+¿Cuál es la diferencia entre el contenido del fichero helloWorld.sh y helloWorld.scm?
+La diferencia principal es que aquel con extensión .sh es originado mediante comandos de la shell, por lo que el comando "./" lo ejecuta. Por otro lado, el de extensión .sc si se ejecuta, abre el editor de scheme. Esto se resume en que se usan distintas librerías para la ejución del mismo y el .sc abre el editor chicken.
+
+
+¿Qué significado tiene la primera línea del fichero helloWorld.sh?
+La primera línea "$ #! /bin/bash" es la descripción de qué lenguaje de scripts se usa, en este caso bash, diciendo dónde se encuentra el programa que permite ejecutar dicho archivo.
